@@ -1,0 +1,36 @@
+
+@media (max-width: 956px){
+    .gallery{
+        display: table;
+        width: 460px;
+    }
+}
+
+@media (max-width: 643px){
+    .name{
+        font-size: small;
+        align-items: center;
+    }
+    .ben1{
+        margin-top: 50px;
+        align-items: center;
+    }
+    .items{
+        flex-direction: column;
+    }
+    .item{
+        width: 100%;
+        margin: 20px;
+        padding: 0px;
+    }
+    .footer{
+        height: 900px;
+    }
+}
+
+@media (max-width: 540px){
+    .gallery{
+        display: table;
+        width: 220px;
+    }
+}
